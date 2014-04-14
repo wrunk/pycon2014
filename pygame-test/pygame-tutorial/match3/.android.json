@@ -1,0 +1,4 @@
+{"layout": "internal", "orientation": "portrait", "package":
+    "net.mechanicalcat.match3", "include_pil": false, "name": "Match 3",
+    "icon_name": "Match 3", "version": "1.2.6", "permissions": [],
+    "include_sqlite": false, "numeric_version": "126"}

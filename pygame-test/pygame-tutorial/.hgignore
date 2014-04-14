@@ -1,0 +1,18 @@
+syntax: glob
+pytmxloader-read-only
+tiledtmxloader
+.ropeproject
+*.pyc
+*.pyo
+match3/data/*.png
+match3/dist
+match3/build
+match3/android-*.png
+match3/android-*.jpg
+match3/store-imagery/*.png
+slides.key
+pyglet
+cocos
+.DS_Store
+*.orig
+*.pages

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1024"
+   height="500"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.0 r9654"
+   sodipodi:docname="feature-graphic.svg"
+   inkscape:export-filename="/Users/richard/Documents/Presentations/Intro to Game Programming/3 Hour pygame/match3/store-imagery/feature-graphic.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#e6e6e6"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="673.53735"
+     inkscape:cy="299.16615"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1208"
+     inkscape:window-height="774"
+     inkscape:window-x="144"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-552.36215)">
+    <rect
+       style="fill:#33b5e5;fill-opacity:1;stroke:none"
+       id="rect3050"
+       width="96"
+       height="96"
+       x="134"
+       y="868.36206" />
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:#ffbb33;fill-opacity:1;stroke:none"
+       d="m 310,862.36136 c -29.82338,0 -54,24.1776 -54,54.0004 0,29.8232 24.17662,54.00039 54,54.00039 29.82337,0 54,-24.17719 54,-54.00039 0,-29.8232 -24.17663,-54.0008 -54,-54.0008 z m 0,10.0004 c 24.30053,0 44,19.7 44,44 0,24.3008 -19.69947,44.00029 -44,44.00029 -24.30053,0 -44,-19.69949 -44,-44.00029 0,-24.3004 19.69947,-44.0004 44,-44.0004 z"
+       id="path2985" />
+    <path
+       style="fill:#ff4444;fill-opacity:1;stroke:none"
+       d="M 128,788.36137 182.00001,734.36157 236,788.36137 181.99999,842.36176 z"
+       id="rect3050-1"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#aa66cc;fill-opacity:1;stroke:none"
+       d="m 310,740.36225 0,0 48,95.99952 -96,0 z"
+       id="rect3050-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#323232;fill-opacity:1;stroke:none;font-family:Roboto;-inkscape-font-specification:Sans Bold"
+       x="777.05469"
+       y="969.62384"
+       id="text8303"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="777.05469"
+         y="969.62384"
+         id="tspan8307"
+         style="font-size:72px;text-align:center;text-anchor:middle;fill:#323232;fill-opacity:1">match 3</tspan></text>
+  </g>
+</svg>

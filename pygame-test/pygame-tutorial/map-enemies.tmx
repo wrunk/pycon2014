@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="50" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" source="tiles.tsx"/>
+ <tileset firstgid="2" source="triggers.tsx"/>
+ <tileset firstgid="8" name="sample-tileset" tilewidth="32" tileheight="32">
+  <image source="sample-tileset.png" width="192" height="128"/>
+ </tileset>
+ <layer name="set" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztlt0KwjAUg8+lTtiPOob4/u/pKUUUWe26rmva5YPcloZkWXsRGQtXq+qlfOgDC/rA4og+BtX1S7dUl1rBEfNAJtYHSteYBxbcKyzow4LSNeaBBfcKC/qwoHSNeWDBvcKCPiwoXWMeWHCvsKAPy9Kupe5kzXk8ZoTMRfWUj4+5+6/xsfeumSw68eeBzl01Sb3fRwgo/8aa96pEYt5XPu3ZsRAf/3Y598al8JEDlw9fh0xnUDwYts4jF6F7FevhpDo71ATc45f328R19tbqPIo59wVOHBgB
+  </data>
+ </layer>
+ <objectgroup color="#ff1200" name="triggers" width="50" height="50" visible="0">
+  <properties>
+   <property name="platform" value=""/>
+  </properties>
+  <object name="tlrb" x="0" y="32" width="32" height="1536">
+   <properties>
+    <property name="blockers" value="tlrb"/>
+   </properties>
+  </object>
+  <object name="tlrb" x="1568" y="32" width="32" height="1536">
+   <properties>
+    <property name="blockers" value="tlrb"/>
+   </properties>
+  </object>
+  <object name="tlrb" x="32" y="0" width="1536" height="32">
+   <properties>
+    <property name="blockers" value="tlrb"/>
+   </properties>
+  </object>
+  <object name="tlrb" x="32" y="1568" width="1536" height="32">
+   <properties>
+    <property name="blockers" value="tlrb"/>
+   </properties>
+  </object>
+  <object name="platform" x="320" y="224" width="160" height="32">
+   <properties>
+    <property name="blockers" value="t"/>
+   </properties>
+  </object>
+  <object name="platform" x="480" y="320" width="160" height="32">
+   <properties>
+    <property name="blockers" value="t"/>
+   </properties>
+  </object>
+  <object name="platform" x="320" y="416" width="160" height="32">
+   <properties>
+    <property name="blockers" value="t"/>
+   </properties>
+  </object>
+  <object name="platform" x="480" y="512" width="160" height="32">
+   <properties>
+    <property name="blockers" value="t"/>
+   </properties>
+  </object>
+  <object name="platform" x="320" y="608" width="160" height="32">
+   <properties>
+    <property name="blockers" value="t"/>
+   </properties>
+  </object>
+  <object name="platform" x="480" y="704" width="160" height="32">
+   <properties>
+    <property name="blockers" value="t"/>
+   </properties>
+  </object>
+  <object name="platform" x="320" y="800" width="160" height="32">
+   <properties>
+    <property name="blockers" value="t"/>
+   </properties>
+  </object>
+  <object name="platform" x="480" y="896" width="160" height="32">
+   <properties>
+    <property name="blockers" value="t"/>
+   </properties>
+  </object>
+  <object name="platform" x="320" y="992" width="160" height="32">
+   <properties>
+    <property name="blockers" value="t"/>
+   </properties>
+  </object>
+  <object name="platform" x="480" y="1088" width="160" height="32">
+   <properties>
+    <property name="blockers" value="t"/>
+   </properties>
+  </object>
+  <object name="platform" x="800" y="1088" width="160" height="32">
+   <properties>
+    <property name="blockers" value="t"/>
+   </properties>
+  </object>
+  <object name="platform" x="640" y="1184" width="160" height="32">
+   <properties>
+    <property name="blockers" value="t"/>
+   </properties>
+  </object>
+  <object name="platform" x="480" y="1280" width="160" height="32">
+   <properties>
+    <property name="blockers" value="t"/>
+   </properties>
+  </object>
+  <object name="platform" x="320" y="1376" width="416" height="32">
+   <properties>
+    <property name="blockers" value="t"/>
+   </properties>
+  </object>
+  <object name="platform" x="160" y="1472" width="288" height="32">
+   <properties>
+    <property name="blockers" value="t"/>
+   </properties>
+  </object>
+  <object name="tlrb" x="864" y="1536" width="256" height="32">
+   <properties>
+    <property name="blockers" value="tlrb"/>
+   </properties>
+  </object>
+  <object name="tlrb" x="1536" y="1152" width="32" height="64">
+   <properties>
+    <property name="blockers" value="tlrb"/>
+   </properties>
+  </object>
+  <object gid="2" x="64" y="1536"/>
+  <object gid="3" x="512" y="1280"/>
+  <object gid="3" x="608" y="1376"/>
+  <object gid="3" x="352" y="1376"/>
+  <object gid="3" x="224" y="1472"/>
+  <object gid="5" x="128" y="1472"/>
+  <object gid="5" x="448" y="1472"/>
+  <object gid="5" x="736" y="1376"/>
+  <object gid="5" x="288" y="1376"/>
+  <object gid="5" x="640" y="1280"/>
+  <object gid="5" x="448" y="1280"/>
+ </objectgroup>
+</map>

@@ -1,0 +1,116 @@
+Game development is an iterative process. You add, test, add, test and
+repeat. Hopefully with a little bit of structure. And then you refactor.
+
+Pretty much every game starts with three basic steps:
+
+01-open-window.py
+  Did you catch sight of that window as it flashed open?
+   
+02-handle-events.py
+  To keep the window alive we need an event loop so the program doesn't
+  quit until we're ready. This is the simplest form of event handling in
+  pygame, and you will rarely need to get more complex.
+
+  Explain the two different event types (QUIT and KEYDOWN.)
+
+03-structure.py
+  Here we introduce some structure to the code.
+
+04-drawing.py
+  The final step to getting something basic going is being able to draw
+  images to the screen. Once you've achieved this there's a stack of games
+  that you're able to write (adventure games, tetris, ...)
+
+  Note the coordinate system. Explain "blit".
+
+  Explain the flip()
+
+  We've also limited the redrawing of the screen to 30 frames per second.
+
+05-animation.py
+  A lot of games have animation though. Here we hold the rendered position
+  of the image in a couple of variables. We modify the variables in
+  response to key presses and the image moves.
+
+  Explain why we use pygame.key.get_pressed()
+
+06-sprite.py
+  Images and their location on screen are common partners; a "sprite" is
+  often used to combine the two.
+
+  pygame uses "groups" to collect sprites for rendering: you can render
+  them yourself but you usually end up with a bunch and it's good to have
+  them organised.
+
+  Note the sprite-specific event handling is now part of the sprite itself.
+
+07-smooth.py
+  Here we handle the differences between computer capabilities by
+  incorporating the amount of time passed into the movement calculations.
+
+08-background.py
+  Instead of the plain background we add a nice coloured one.
+
+09-refactoring.py
+  Refactoring out the common code.
+
+10-walls.py
+  Adding some walls and some basic collision detection.
+
+  Basic rectangular collisions. Note we check transitions so we can conform
+  the position of the player to the wall. Describe other forms of collision
+  detection.
+
+  Note how we can't slide along the walls.
+
+11-gravity.py
+  Introduce gravity and jumping.
+
+  Note that jumping should only be possible when resting (or once while
+  jumping if double-jumping is part of the game.)
+
+  Hitting a surface up or down should zero the vertical (y) velocity.
+  Later when we have platforms try not zeroing the velocity and walk off
+  the end of a platform.
+
+12-tilemap.py
+  Introduce a real tile map loaded from the common TMX format. Using a
+  library, because we're not crazy. There's a bunch of TMX libraries. And
+  TMX tools.
+
+  Show Tiled?
+
+  Discuss viewports over larger game areas. Talk about set_focus vs.
+  force_focus.
+
+  Note refactoring to handle the game now being a larger scrolled area.
+
+  Discuss blocker sides and how they solve the wall collision problem of
+  before.
+
+13-enemies.py
+  Enemies are added using more triggers, including some to make them turn
+  around.
+
+  Enemies are added to a separate sprite group so we can access them later.
+
+  The player can die so handle that.
+
+14-shooting.py
+  Player shooting. We need to know which direction the player is facing.
+
+  Note possibility of sprite animation.
+
+  Talk about gun cooldown and bullet lifespan.
+
+  Note sprite kill()
+
+  More refactoring!
+
+15-sound.py
+  Load sounds and .play() sounds when appropriate. Easy! Try not to
+  overload the mixer though!
+
+16-scenes.py
+  Different scenes are just new event loops that you run.
+
